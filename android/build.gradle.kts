@@ -8,7 +8,7 @@ group "org.ton"
 version "1.0-SNAPSHOT"
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -19,7 +19,7 @@ dependencies {
 android {
     compileSdkVersion(31)
     defaultConfig {
-        applicationId = "org.ton.android"
+        applicationId = "org.ton.wallet.android"
         minSdkVersion(24)
         targetSdkVersion(31)
         versionCode = 1

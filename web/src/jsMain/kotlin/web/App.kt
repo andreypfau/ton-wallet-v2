@@ -1,4 +1,4 @@
-package org.ton.wallet
+package web
 
 import kotlinx.browser.document
 import org.jetbrains.compose.web.dom.Div
