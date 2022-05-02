@@ -29,7 +29,7 @@ fun App() {
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            IconButton(onClick = { println() }) {
+            IconButton(onClick = { println("Refresh") }) {
                 Icon(Icons.Filled.Refresh, "Refresh", Modifier, tint = Colors.Primary)
             }
             Text("updated just now", color = Colors.Primary)
@@ -44,7 +44,7 @@ fun App() {
             Row {
                 Text("0.00\uD83D\uDC8E", fontSize = (32).sp, color = Color.White)
             }
-            Text("Your balance", color = Color.White, modifier = Modifier.padding(top = 10.dp))
+            Text("Your balance", color = Color.White, modifier = Modifier.padding(top = 11.dp))
         }
     }
 }
